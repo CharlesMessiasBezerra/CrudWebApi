@@ -207,6 +207,29 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Usuario.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/Usuario.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Usuario.Common.dll": {}
+        }
+      },
+      "Usuario.Crosscutting/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Usuario.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Usuario.Crosscutting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Usuario.Crosscutting.dll": {}
+        }
       }
     }
   },
@@ -678,11 +701,22 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Usuario.Common/1.0.0": {
+      "type": "project",
+      "path": "../Common/Usuario.Common.csproj",
+      "msbuildProject": "../Common/Usuario.Common.csproj"
+    },
+    "Usuario.Crosscutting/1.0.0": {
+      "type": "project",
+      "path": "../Crosscutting/Usuario.Crosscutting.csproj",
+      "msbuildProject": "../Crosscutting/Usuario.Crosscutting.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "Microsoft.NETCore.App >= 2.2.0"
+      "Microsoft.NETCore.App >= 2.2.0",
+      "Usuario.Crosscutting >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -692,9 +726,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Domain\\Domain.csproj",
-      "projectName": "Domain",
-      "projectPath": "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Domain\\Domain.csproj",
+      "projectUniqueName": "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Domain\\Usuario.Domain.csproj",
+      "projectName": "Usuario.Domain",
+      "projectPath": "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Domain\\Usuario.Domain.csproj",
       "packagesPath": "C:\\Users\\cmbezerra\\.nuget\\packages\\",
       "outputPath": "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Domain\\obj\\",
       "projectStyle": "PackageReference",
@@ -715,7 +749,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Crosscutting\\Usuario.Crosscutting.csproj": {
+              "projectPath": "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Crosscutting\\Usuario.Crosscutting.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

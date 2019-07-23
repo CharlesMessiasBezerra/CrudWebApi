@@ -26,13 +26,68 @@
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
-          "Microsoft.NETCore.App": "2.2.0"
+          "Microsoft.NETCore.App": "2.2.0",
+          "Usuario.Service": "1.0.0"
         },
         "runtime": {
           "Interface.dll": {}
         },
         "compile": {
           "Interface.dll": {}
+        }
+      },
+      "Usuario.Common/1.0.0": {
+        "runtime": {
+          "Usuario.Common.dll": {}
+        },
+        "compile": {
+          "Usuario.Common.dll": {}
+        }
+      },
+      "Usuario.Crosscutting/1.0.0": {
+        "dependencies": {
+          "Usuario.Common": "1.0.0"
+        },
+        "runtime": {
+          "Usuario.Crosscutting.dll": {}
+        },
+        "compile": {
+          "Usuario.Crosscutting.dll": {}
+        }
+      },
+      "Usuario.Domain/1.0.0": {
+        "dependencies": {
+          "Usuario.Crosscutting": "1.0.0"
+        },
+        "runtime": {
+          "Usuario.Domain.dll": {}
+        },
+        "compile": {
+          "Usuario.Domain.dll": {}
+        }
+      },
+      "Usuario.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Usuario.Common": "1.0.0",
+          "Usuario.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Usuario.Infrastructure.dll": {}
+        },
+        "compile": {
+          "Usuario.Infrastructure.dll": {}
+        }
+      },
+      "Usuario.Service/1.0.0": {
+        "dependencies": {
+          "Usuario.Crosscutting": "1.0.0",
+          "Usuario.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "Usuario.Service.dll": {}
+        },
+        "compile": {
+          "Usuario.Service.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3233,6 +3288,31 @@
   },
   "libraries": {
     "Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Usuario.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Usuario.Crosscutting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Usuario.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Usuario.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Usuario.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

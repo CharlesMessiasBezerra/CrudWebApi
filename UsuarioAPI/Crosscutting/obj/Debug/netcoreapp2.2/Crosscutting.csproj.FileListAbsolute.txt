@@ -8,3 +8,7 @@ D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\obj\Debug\netcoreapp2.2\Crosscu
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\obj\Debug\netcoreapp2.2\Crosscutting.AssemblyInfo.cs
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\obj\Debug\netcoreapp2.2\Crosscutting.dll
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\obj\Debug\netcoreapp2.2\Crosscutting.pdb
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\bin\Debug\netcoreapp2.2\Common.dll
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\bin\Debug\netcoreapp2.2\Common.pdb
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\obj\Debug\netcoreapp2.2\Crosscutting.csprojAssemblyReference.cache
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\obj\Debug\netcoreapp2.2\Crosscutting.csproj.CopyComplete

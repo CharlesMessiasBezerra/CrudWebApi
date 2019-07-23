@@ -692,9 +692,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Migration\\Migration.csproj",
-      "projectName": "Migration",
-      "projectPath": "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Migration\\Migration.csproj",
+      "projectUniqueName": "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Migration\\Usuario.Migration.csproj",
+      "projectName": "Usuario.Migration",
+      "projectPath": "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Migration\\Usuario.Migration.csproj",
       "packagesPath": "C:\\Users\\cmbezerra\\.nuget\\packages\\",
       "outputPath": "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Migration\\obj\\",
       "projectStyle": "PackageReference",

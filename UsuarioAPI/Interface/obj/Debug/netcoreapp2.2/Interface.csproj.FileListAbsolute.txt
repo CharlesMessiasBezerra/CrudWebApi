@@ -5,7 +5,6 @@ D:\USR\GitHub\CrudWebApi\UsuarioAPI\Interface\bin\Debug\netcoreapp2.2\Interface.
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Interface\bin\Debug\netcoreapp2.2\Interface.pdb
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Interface\bin\Debug\netcoreapp2.2\Interface.Views.dll
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Interface\bin\Debug\netcoreapp2.2\Interface.Views.pdb
-D:\USR\GitHub\CrudWebApi\UsuarioAPI\Interface\obj\Debug\netcoreapp2.2\Interface.csprojAssemblyReference.cache
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Interface\obj\Debug\netcoreapp2.2\Interface.csproj.CoreCompileInputs.cache
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Interface\obj\Debug\netcoreapp2.2\Interface.RazorAssemblyInfo.cache
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Interface\obj\Debug\netcoreapp2.2\Interface.RazorAssemblyInfo.cs
@@ -28,3 +27,14 @@ D:\USR\GitHub\CrudWebApi\UsuarioAPI\Interface\obj\Debug\netcoreapp2.2\Interface.
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Interface\obj\Debug\netcoreapp2.2\Interface.dll
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Interface\obj\Debug\netcoreapp2.2\Interface.pdb
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Interface\obj\Debug\netcoreapp2.2\Interface.csproj.CopyComplete
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Interface\obj\Debug\netcoreapp2.2\Interface.csprojAssemblyReference.cache
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Interface\bin\Debug\netcoreapp2.2\Usuario.Common.dll
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Interface\bin\Debug\netcoreapp2.2\Usuario.Crosscutting.dll
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Interface\bin\Debug\netcoreapp2.2\Usuario.Domain.dll
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Interface\bin\Debug\netcoreapp2.2\Usuario.Infrastructure.dll
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Interface\bin\Debug\netcoreapp2.2\Usuario.Service.dll
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Interface\bin\Debug\netcoreapp2.2\Usuario.Service.pdb
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Interface\bin\Debug\netcoreapp2.2\Usuario.Common.pdb
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Interface\bin\Debug\netcoreapp2.2\Usuario.Crosscutting.pdb
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Interface\bin\Debug\netcoreapp2.2\Usuario.Domain.pdb
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Interface\bin\Debug\netcoreapp2.2\Usuario.Infrastructure.pdb

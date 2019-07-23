@@ -207,6 +207,56 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Usuario.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/Usuario.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Usuario.Common.dll": {}
+        }
+      },
+      "Usuario.Crosscutting/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Usuario.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Usuario.Crosscutting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Usuario.Crosscutting.dll": {}
+        }
+      },
+      "Usuario.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Usuario.Crosscutting": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Usuario.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Usuario.Domain.dll": {}
+        }
+      },
+      "Usuario.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Usuario.Common": "1.0.0",
+          "Usuario.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Usuario.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Usuario.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -678,11 +728,33 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Usuario.Common/1.0.0": {
+      "type": "project",
+      "path": "../Common/Usuario.Common.csproj",
+      "msbuildProject": "../Common/Usuario.Common.csproj"
+    },
+    "Usuario.Crosscutting/1.0.0": {
+      "type": "project",
+      "path": "../Crosscutting/Usuario.Crosscutting.csproj",
+      "msbuildProject": "../Crosscutting/Usuario.Crosscutting.csproj"
+    },
+    "Usuario.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Usuario.Domain.csproj",
+      "msbuildProject": "../Domain/Usuario.Domain.csproj"
+    },
+    "Usuario.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Infrastructure/Usuario.Infrastructure.csproj",
+      "msbuildProject": "../Infrastructure/Usuario.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "Microsoft.NETCore.App >= 2.2.0"
+      "Microsoft.NETCore.App >= 2.2.0",
+      "Usuario.Crosscutting >= 1.0.0",
+      "Usuario.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -692,9 +764,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Service\\Service.csproj",
-      "projectName": "Service",
-      "projectPath": "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Service\\Service.csproj",
+      "projectUniqueName": "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Service\\Usuario.Service.csproj",
+      "projectName": "Usuario.Service",
+      "projectPath": "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Service\\Usuario.Service.csproj",
       "packagesPath": "C:\\Users\\cmbezerra\\.nuget\\packages\\",
       "outputPath": "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Service\\obj\\",
       "projectStyle": "PackageReference",
@@ -715,7 +787,14 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Crosscutting\\Usuario.Crosscutting.csproj": {
+              "projectPath": "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Crosscutting\\Usuario.Crosscutting.csproj"
+            },
+            "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Infrastructure\\Usuario.Infrastructure.csproj": {
+              "projectPath": "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Infrastructure\\Usuario.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

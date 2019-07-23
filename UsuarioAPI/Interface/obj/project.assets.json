@@ -4438,6 +4438,70 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "Usuario.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/Usuario.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Usuario.Common.dll": {}
+        }
+      },
+      "Usuario.Crosscutting/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Usuario.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Usuario.Crosscutting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Usuario.Crosscutting.dll": {}
+        }
+      },
+      "Usuario.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Usuario.Crosscutting": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Usuario.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Usuario.Domain.dll": {}
+        }
+      },
+      "Usuario.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Usuario.Common": "1.0.0",
+          "Usuario.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Usuario.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Usuario.Infrastructure.dll": {}
+        }
+      },
+      "Usuario.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Usuario.Crosscutting": "1.0.0",
+          "Usuario.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Usuario.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Usuario.Service.dll": {}
+        }
       }
     }
   },
@@ -12080,13 +12144,39 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "Usuario.Common/1.0.0": {
+      "type": "project",
+      "path": "../Common/Usuario.Common.csproj",
+      "msbuildProject": "../Common/Usuario.Common.csproj"
+    },
+    "Usuario.Crosscutting/1.0.0": {
+      "type": "project",
+      "path": "../Crosscutting/Usuario.Crosscutting.csproj",
+      "msbuildProject": "../Crosscutting/Usuario.Crosscutting.csproj"
+    },
+    "Usuario.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Usuario.Domain.csproj",
+      "msbuildProject": "../Domain/Usuario.Domain.csproj"
+    },
+    "Usuario.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Infrastructure/Usuario.Infrastructure.csproj",
+      "msbuildProject": "../Infrastructure/Usuario.Infrastructure.csproj"
+    },
+    "Usuario.Service/1.0.0": {
+      "type": "project",
+      "path": "../Service/Usuario.Service.csproj",
+      "msbuildProject": "../Service/Usuario.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
-      "Microsoft.NETCore.App >= 2.2.0"
+      "Microsoft.NETCore.App >= 2.2.0",
+      "Usuario.Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12119,7 +12209,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Service\\Usuario.Service.csproj": {
+              "projectPath": "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Service\\Usuario.Service.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

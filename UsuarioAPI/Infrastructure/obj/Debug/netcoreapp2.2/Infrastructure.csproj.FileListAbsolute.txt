@@ -8,3 +8,11 @@ D:\USR\GitHub\CrudWebApi\UsuarioAPI\Infrastructure\obj\Debug\netcoreapp2.2\Infra
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Infrastructure\obj\Debug\netcoreapp2.2\Infrastructure.AssemblyInfo.cs
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Infrastructure\obj\Debug\netcoreapp2.2\Infrastructure.dll
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Infrastructure\obj\Debug\netcoreapp2.2\Infrastructure.pdb
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Infrastructure\bin\Debug\netcoreapp2.2\Common.dll
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Infrastructure\bin\Debug\netcoreapp2.2\Crosscutting.dll
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Infrastructure\bin\Debug\netcoreapp2.2\Domain.dll
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Infrastructure\bin\Debug\netcoreapp2.2\Common.pdb
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Infrastructure\bin\Debug\netcoreapp2.2\Domain.pdb
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Infrastructure\bin\Debug\netcoreapp2.2\Crosscutting.pdb
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Infrastructure\obj\Debug\netcoreapp2.2\Infrastructure.csprojAssemblyReference.cache
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Infrastructure\obj\Debug\netcoreapp2.2\Infrastructure.csproj.CopyComplete

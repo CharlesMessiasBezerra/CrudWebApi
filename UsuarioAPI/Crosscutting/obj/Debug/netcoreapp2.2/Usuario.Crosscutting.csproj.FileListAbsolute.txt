@@ -1,0 +1,14 @@
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\bin\Debug\netcoreapp2.2\Usuario.Crosscutting.deps.json
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\bin\Debug\netcoreapp2.2\Usuario.Crosscutting.runtimeconfig.json
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\bin\Debug\netcoreapp2.2\Usuario.Crosscutting.runtimeconfig.dev.json
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\bin\Debug\netcoreapp2.2\Usuario.Crosscutting.dll
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\bin\Debug\netcoreapp2.2\Usuario.Crosscutting.pdb
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\bin\Debug\netcoreapp2.2\Usuario.Common.dll
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\bin\Debug\netcoreapp2.2\Usuario.Common.pdb
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\obj\Debug\netcoreapp2.2\Usuario.Crosscutting.csprojAssemblyReference.cache
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\obj\Debug\netcoreapp2.2\Usuario.Crosscutting.csproj.CoreCompileInputs.cache
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\obj\Debug\netcoreapp2.2\Usuario.Crosscutting.AssemblyInfoInputs.cache
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\obj\Debug\netcoreapp2.2\Usuario.Crosscutting.AssemblyInfo.cs
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\obj\Debug\netcoreapp2.2\Usuario.Crosscutting.csproj.CopyComplete
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\obj\Debug\netcoreapp2.2\Usuario.Crosscutting.dll
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\obj\Debug\netcoreapp2.2\Usuario.Crosscutting.pdb

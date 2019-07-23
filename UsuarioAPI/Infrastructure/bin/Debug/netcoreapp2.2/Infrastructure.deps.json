@@ -7,14 +7,54 @@
   "targets": {
     ".NETCoreApp,Version=v2.2": {
       "Infrastructure/1.0.0": {
+        "dependencies": {
+          "Common": "1.0.0",
+          "Domain": "1.0.0"
+        },
         "runtime": {
           "Infrastructure.dll": {}
+        }
+      },
+      "Common/1.0.0": {
+        "runtime": {
+          "Common.dll": {}
+        }
+      },
+      "Crosscutting/1.0.0": {
+        "dependencies": {
+          "Common": "1.0.0"
+        },
+        "runtime": {
+          "Crosscutting.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "dependencies": {
+          "Crosscutting": "1.0.0"
+        },
+        "runtime": {
+          "Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Crosscutting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{BFC38D1D-E995-4EB9-81C9-B4F9245EEE79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Usuario.Common", "Common\Usuario.Common.csproj", "{BFC38D1D-E995-4EB9-81C9-B4F9245EEE79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crosscutting", "Crosscutting\Crosscutting.csproj", "{C9A628DE-983D-4AD0-B87E-BEAB45777408}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Usuario.Crosscutting", "Crosscutting\Usuario.Crosscutting.csproj", "{C9A628DE-983D-4AD0-B87E-BEAB45777408}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{B9FDFD06-F092-4653-82A3-CFEDFABF04A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Usuario.Domain", "Domain\Usuario.Domain.csproj", "{B9FDFD06-F092-4653-82A3-CFEDFABF04A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{3DDCB401-D4F7-4476-97CA-FBCA250DAC28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Usuario.Infrastructure", "Infrastructure\Usuario.Infrastructure.csproj", "{3DDCB401-D4F7-4476-97CA-FBCA250DAC28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{AF87E222-59C5-4222-B1DA-22149DC757DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface", "Interface\Interface.csproj", "{AF87E222-59C5-4222-B1DA-22149DC757DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migration", "Migration\Migration.csproj", "{6D080FEF-39F5-46A1-BFB1-6EE45EC86DBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Usuario.Migration", "Migration\Usuario.Migration.csproj", "{6D080FEF-39F5-46A1-BFB1-6EE45EC86DBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{7257D3BA-7A27-4E33-89E7-6525E23E0B9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Usuario.Service", "Service\Usuario.Service.csproj", "{7257D3BA-7A27-4E33-89E7-6525E23E0B9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

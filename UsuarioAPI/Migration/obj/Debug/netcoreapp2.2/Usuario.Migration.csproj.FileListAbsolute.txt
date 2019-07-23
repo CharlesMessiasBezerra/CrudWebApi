@@ -1,0 +1,10 @@
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Migration\bin\Debug\netcoreapp2.2\Usuario.Migration.deps.json
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Migration\bin\Debug\netcoreapp2.2\Usuario.Migration.runtimeconfig.json
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Migration\bin\Debug\netcoreapp2.2\Usuario.Migration.runtimeconfig.dev.json
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Migration\bin\Debug\netcoreapp2.2\Usuario.Migration.dll
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Migration\bin\Debug\netcoreapp2.2\Usuario.Migration.pdb
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Migration\obj\Debug\netcoreapp2.2\Usuario.Migration.csproj.CoreCompileInputs.cache
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Migration\obj\Debug\netcoreapp2.2\Usuario.Migration.AssemblyInfoInputs.cache
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Migration\obj\Debug\netcoreapp2.2\Usuario.Migration.AssemblyInfo.cs
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Migration\obj\Debug\netcoreapp2.2\Usuario.Migration.dll
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Migration\obj\Debug\netcoreapp2.2\Usuario.Migration.pdb
