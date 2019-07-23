@@ -1,0 +1,10 @@
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Domain\bin\Debug\netcoreapp2.2\Domain.deps.json
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Domain\bin\Debug\netcoreapp2.2\Domain.runtimeconfig.json
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Domain\bin\Debug\netcoreapp2.2\Domain.runtimeconfig.dev.json
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Domain\bin\Debug\netcoreapp2.2\Domain.dll
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Domain\bin\Debug\netcoreapp2.2\Domain.pdb
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Domain\obj\Debug\netcoreapp2.2\Domain.csproj.CoreCompileInputs.cache
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Domain\obj\Debug\netcoreapp2.2\Domain.AssemblyInfoInputs.cache
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Domain\obj\Debug\netcoreapp2.2\Domain.AssemblyInfo.cs
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Domain\obj\Debug\netcoreapp2.2\Domain.dll
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Domain\obj\Debug\netcoreapp2.2\Domain.pdb

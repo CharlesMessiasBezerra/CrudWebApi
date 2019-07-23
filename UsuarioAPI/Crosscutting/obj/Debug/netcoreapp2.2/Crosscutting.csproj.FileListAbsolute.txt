@@ -1,0 +1,10 @@
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\bin\Debug\netcoreapp2.2\Crosscutting.deps.json
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\bin\Debug\netcoreapp2.2\Crosscutting.runtimeconfig.json
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\bin\Debug\netcoreapp2.2\Crosscutting.runtimeconfig.dev.json
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\bin\Debug\netcoreapp2.2\Crosscutting.dll
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\bin\Debug\netcoreapp2.2\Crosscutting.pdb
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\obj\Debug\netcoreapp2.2\Crosscutting.csproj.CoreCompileInputs.cache
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\obj\Debug\netcoreapp2.2\Crosscutting.AssemblyInfoInputs.cache
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\obj\Debug\netcoreapp2.2\Crosscutting.AssemblyInfo.cs
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\obj\Debug\netcoreapp2.2\Crosscutting.dll
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Crosscutting\obj\Debug\netcoreapp2.2\Crosscutting.pdb
