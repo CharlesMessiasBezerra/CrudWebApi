@@ -49,6 +49,12 @@ namespace Interface
                 app.UseHsts();
             }
 
+            app.UseCors(config => {
+                config.AllowAnyHeader();
+                config.AllowAnyMethod();
+                config.AllowAnyOrigin();
+            });
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();

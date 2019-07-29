@@ -8,3 +8,4 @@ D:\USR\GitHub\CrudWebApi\UsuarioAPI\Migration\obj\Debug\netcoreapp2.2\Usuario.Mi
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Migration\obj\Debug\netcoreapp2.2\Usuario.Migration.AssemblyInfo.cs
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Migration\obj\Debug\netcoreapp2.2\Usuario.Migration.dll
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Migration\obj\Debug\netcoreapp2.2\Usuario.Migration.pdb
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Migration\obj\Debug\netcoreapp2.2\Usuario.Migration.csprojAssemblyReference.cache
