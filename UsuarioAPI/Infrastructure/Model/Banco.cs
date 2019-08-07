@@ -10,7 +10,7 @@ namespace Usuario.Infrastructure.Model
         {
         }
 
-        public virtual DbSet<Usuario> Usuario { get; set; }
+        public virtual DbSet<UsuarioDB> Usuario { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

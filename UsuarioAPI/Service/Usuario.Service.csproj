@@ -6,7 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Crosscutting\Usuario.Crosscutting.csproj" />
     <ProjectReference Include="..\Infrastructure\Usuario.Infrastructure.csproj" />
   </ItemGroup>
 

@@ -3,14 +3,8 @@ D:\USR\GitHub\CrudWebApi\UsuarioAPI\Domain\bin\Debug\netcoreapp2.2\Usuario.Domai
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Domain\bin\Debug\netcoreapp2.2\Usuario.Domain.runtimeconfig.dev.json
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Domain\bin\Debug\netcoreapp2.2\Usuario.Domain.dll
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Domain\bin\Debug\netcoreapp2.2\Usuario.Domain.pdb
-D:\USR\GitHub\CrudWebApi\UsuarioAPI\Domain\bin\Debug\netcoreapp2.2\Usuario.Common.dll
-D:\USR\GitHub\CrudWebApi\UsuarioAPI\Domain\bin\Debug\netcoreapp2.2\Usuario.Crosscutting.dll
-D:\USR\GitHub\CrudWebApi\UsuarioAPI\Domain\bin\Debug\netcoreapp2.2\Usuario.Crosscutting.pdb
-D:\USR\GitHub\CrudWebApi\UsuarioAPI\Domain\bin\Debug\netcoreapp2.2\Usuario.Common.pdb
-D:\USR\GitHub\CrudWebApi\UsuarioAPI\Domain\obj\Debug\netcoreapp2.2\Usuario.Domain.csprojAssemblyReference.cache
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Domain\obj\Debug\netcoreapp2.2\Usuario.Domain.csproj.CoreCompileInputs.cache
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Domain\obj\Debug\netcoreapp2.2\Usuario.Domain.AssemblyInfoInputs.cache
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Domain\obj\Debug\netcoreapp2.2\Usuario.Domain.AssemblyInfo.cs
-D:\USR\GitHub\CrudWebApi\UsuarioAPI\Domain\obj\Debug\netcoreapp2.2\Usuario.Domain.csproj.CopyComplete
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Domain\obj\Debug\netcoreapp2.2\Usuario.Domain.dll
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Domain\obj\Debug\netcoreapp2.2\Usuario.Domain.pdb

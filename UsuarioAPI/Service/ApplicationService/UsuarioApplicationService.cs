@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using Usuario.Common.DTO.UsuarioContext;
 using Usuario.Infrastructure;
+using Usuario.Infrastructure.UnitOfWork.Usuario;
+
 
 namespace Usuario.Service.ApplicationService
 {
@@ -13,15 +16,23 @@ namespace Usuario.Service.ApplicationService
 
         public UsuarioApplicationService(UsuarioUnitOfWork uow)
         {
+
             _uow = uow;
         }
 
-        public void Insert(UsuarioDto dto)
-        {                       
-            _uow.AlunoRepository.Add(aluno);
-            _uow.Commit();
-        }
+        public UsuarioDto GetById(int id)
+        {
+            var query = _uow.UsuarioRepository.GetById(id);
 
+            var dto = query.Select(x => new UsuarioDto{
 
+                Id = x.Id,
+                Nome = x.Nome,                
+             }).FirstOrDefault();
+
+            return dto;
     }
-}
+
+
+        }
+    }

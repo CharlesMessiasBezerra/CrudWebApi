@@ -2,17 +2,18 @@
 using Microsoft.AspNetCore.Mvc;
 using Usuario.Service.ApplicationService;
 
-namespace Interface.Controllers
+namespace Usuario.Interface.Controllers
 {
     [Route("api/usuario/")]
     public class UsuarioController : Controller
     {
         private readonly UsuarioApplicationService _appService;
 
-        [HttpGet]
-        public IActionResult ListarUsuarios()
+        [HttpGet("{id:int}")]
+        public IActionResult ListarUsuarios(int id)
         {
-            return Ok(1);             
+            return _appService.GetById(id);
+            
         }
 
     }

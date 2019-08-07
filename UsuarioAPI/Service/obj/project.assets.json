@@ -218,25 +218,9 @@
           "bin/placeholder/Usuario.Common.dll": {}
         }
       },
-      "Usuario.Crosscutting/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.2",
-        "dependencies": {
-          "Usuario.Common": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Usuario.Crosscutting.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Usuario.Crosscutting.dll": {}
-        }
-      },
       "Usuario.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
-        "dependencies": {
-          "Usuario.Crosscutting": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/Usuario.Domain.dll": {}
         },
@@ -734,11 +718,6 @@
       "path": "../Common/Usuario.Common.csproj",
       "msbuildProject": "../Common/Usuario.Common.csproj"
     },
-    "Usuario.Crosscutting/1.0.0": {
-      "type": "project",
-      "path": "../Crosscutting/Usuario.Crosscutting.csproj",
-      "msbuildProject": "../Crosscutting/Usuario.Crosscutting.csproj"
-    },
     "Usuario.Domain/1.0.0": {
       "type": "project",
       "path": "../Domain/Usuario.Domain.csproj",
@@ -753,7 +732,6 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.NETCore.App >= 2.2.0",
-      "Usuario.Crosscutting >= 1.0.0",
       "Usuario.Infrastructure >= 1.0.0"
     ]
   },
@@ -788,9 +766,6 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Crosscutting\\Usuario.Crosscutting.csproj": {
-              "projectPath": "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Crosscutting\\Usuario.Crosscutting.csproj"
-            },
             "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Infrastructure\\Usuario.Infrastructure.csproj": {
               "projectPath": "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Infrastructure\\Usuario.Infrastructure.csproj"
             }

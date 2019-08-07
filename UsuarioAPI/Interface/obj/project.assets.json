@@ -4449,25 +4449,9 @@
           "bin/placeholder/Usuario.Common.dll": {}
         }
       },
-      "Usuario.Crosscutting/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.2",
-        "dependencies": {
-          "Usuario.Common": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Usuario.Crosscutting.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Usuario.Crosscutting.dll": {}
-        }
-      },
       "Usuario.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
-        "dependencies": {
-          "Usuario.Crosscutting": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/Usuario.Domain.dll": {}
         },
@@ -4493,7 +4477,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
-          "Usuario.Crosscutting": "1.0.0",
           "Usuario.Infrastructure": "1.0.0"
         },
         "compile": {
@@ -12149,11 +12132,6 @@
       "type": "project",
       "path": "../Common/Usuario.Common.csproj",
       "msbuildProject": "../Common/Usuario.Common.csproj"
-    },
-    "Usuario.Crosscutting/1.0.0": {
-      "type": "project",
-      "path": "../Crosscutting/Usuario.Crosscutting.csproj",
-      "msbuildProject": "../Crosscutting/Usuario.Crosscutting.csproj"
     },
     "Usuario.Domain/1.0.0": {
       "type": "project",

@@ -1,22 +1,21 @@
-﻿using System.Linq;
+﻿using Usuario.Infrastructure.Model;
+using Usuario.Infrastructure.Repository.Base;
+using System.Linq;
+using Usuario.Domain.UsuarioContext;
 
-namespace Infrastructure.Repository.AlunoContext
+namespace Usuario.Infrastructure.Repository.AlunoContext
 {
-    public class AlunoRepository : GenericRepository<Aluno, Banco>
+    public class UsuarioRepository : GenericRepository<UsuarioDB, Banco>
     {
-        public AlunoRepository(Banco context) : base(context)
+        public UsuarioRepository(Banco context) : base(context)
         {
 
         }
 
-        public IQueryable<Aluno> GetById(int id)
+        public IQueryable<UsuarioDB> GetById(int id)
         {
-            return _context.Aluno.Where(x => x.Id == id);
+            return _context.Usuario.Where(x => x.Id == id);
         }
 
-        public IQueryable<Aluno> GetByNome(string nome)
-        {
-            return _context.Aluno.Where(x => x.Nome.Contains(nome));
-        }
     }
 }

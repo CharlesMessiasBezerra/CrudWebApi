@@ -1,7 +1,7 @@
 ﻿using System;
 using Usuario.Infrastructure.Model;
 
-namespace Infrastructure.UnitOfWork.Base
+namespace Usuario.Infrastructure.UnitOfWork.Base
 {
     public abstract class GenericUnitOfWork
     {

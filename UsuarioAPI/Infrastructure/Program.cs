@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Infrastructure
+namespace Usuario.Infrastructure
 {
     class Program
     {
