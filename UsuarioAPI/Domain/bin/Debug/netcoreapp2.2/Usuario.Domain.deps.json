@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v2.2": {
       "Usuario.Domain/1.0.0": {
+        "dependencies": {
+          "Usuario.Common": "1.0.0"
+        },
         "runtime": {
           "Usuario.Domain.dll": {}
+        }
+      },
+      "Usuario.Common/1.0.0": {
+        "runtime": {
+          "Usuario.Common.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Usuario.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Usuario.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

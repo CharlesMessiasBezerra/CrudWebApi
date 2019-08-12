@@ -8,3 +8,4 @@ D:\USR\GitHub\CrudWebApi\UsuarioAPI\Common\obj\Debug\netcoreapp2.2\Usuario.Commo
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Common\obj\Debug\netcoreapp2.2\Usuario.Common.AssemblyInfo.cs
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Common\obj\Debug\netcoreapp2.2\Usuario.Common.dll
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Common\obj\Debug\netcoreapp2.2\Usuario.Common.pdb
+D:\USR\GitHub\CrudWebApi\UsuarioAPI\Common\obj\Debug\netcoreapp2.2\Usuario.Common.csprojAssemblyReference.cache

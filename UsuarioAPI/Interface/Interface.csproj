@@ -8,11 +8,14 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
   </ItemGroup>
 
 
   <ItemGroup>
+    <ProjectReference Include="..\Common\Usuario.Common.csproj" />
+    <ProjectReference Include="..\Domain\Usuario.Domain.csproj" />
     <ProjectReference Include="..\Service\Usuario.Service.csproj" />
   </ItemGroup>
 

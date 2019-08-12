@@ -207,6 +207,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Usuario.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/Usuario.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Usuario.Common.dll": {}
+        }
       }
     }
   },
@@ -678,11 +688,17 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Usuario.Common/1.0.0": {
+      "type": "project",
+      "path": "../Common/Usuario.Common.csproj",
+      "msbuildProject": "../Common/Usuario.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "Microsoft.NETCore.App >= 2.2.0"
+      "Microsoft.NETCore.App >= 2.2.0",
+      "Usuario.Common >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -715,7 +731,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Common\\Usuario.Common.csproj": {
+              "projectPath": "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Common\\Usuario.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

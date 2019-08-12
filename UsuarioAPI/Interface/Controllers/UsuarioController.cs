@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Usuario.Service.ApplicationService;
+using Usuario.Common.DTO.UsuarioContext;
 
 namespace Usuario.Interface.Controllers
 {
@@ -10,10 +11,10 @@ namespace Usuario.Interface.Controllers
         private readonly UsuarioApplicationService _appService;
 
         [HttpGet("{id:int}")]
-        public IActionResult ListarUsuarios(int id)
+        public UsuarioDto ListarUsuarios(int id)
         {
             return _appService.GetById(id);
-            
+                        
         }
 
     }
