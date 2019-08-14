@@ -9,3 +9,13 @@ D:\USR\GitHub\CrudWebApi\UsuarioAPI\Common\obj\Debug\netcoreapp2.2\Usuario.Commo
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Common\obj\Debug\netcoreapp2.2\Usuario.Common.dll
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Common\obj\Debug\netcoreapp2.2\Usuario.Common.pdb
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Common\obj\Debug\netcoreapp2.2\Usuario.Common.csprojAssemblyReference.cache
+D:\Developer\GitHub\CrudWebApi\UsuarioAPI\Common\bin\Debug\netcoreapp2.2\Usuario.Common.deps.json
+D:\Developer\GitHub\CrudWebApi\UsuarioAPI\Common\bin\Debug\netcoreapp2.2\Usuario.Common.runtimeconfig.json
+D:\Developer\GitHub\CrudWebApi\UsuarioAPI\Common\bin\Debug\netcoreapp2.2\Usuario.Common.runtimeconfig.dev.json
+D:\Developer\GitHub\CrudWebApi\UsuarioAPI\Common\bin\Debug\netcoreapp2.2\Usuario.Common.dll
+D:\Developer\GitHub\CrudWebApi\UsuarioAPI\Common\bin\Debug\netcoreapp2.2\Usuario.Common.pdb
+D:\Developer\GitHub\CrudWebApi\UsuarioAPI\Common\obj\Debug\netcoreapp2.2\Usuario.Common.csproj.CoreCompileInputs.cache
+D:\Developer\GitHub\CrudWebApi\UsuarioAPI\Common\obj\Debug\netcoreapp2.2\Usuario.Common.AssemblyInfoInputs.cache
+D:\Developer\GitHub\CrudWebApi\UsuarioAPI\Common\obj\Debug\netcoreapp2.2\Usuario.Common.AssemblyInfo.cs
+D:\Developer\GitHub\CrudWebApi\UsuarioAPI\Common\obj\Debug\netcoreapp2.2\Usuario.Common.dll
+D:\Developer\GitHub\CrudWebApi\UsuarioAPI\Common\obj\Debug\netcoreapp2.2\Usuario.Common.pdb

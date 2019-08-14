@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -8,6 +8,10 @@
   <ItemGroup>
     <ProjectReference Include="..\Common\Usuario.Common.csproj" />
     <ProjectReference Include="..\Infrastructure\Usuario.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DependecyInjection\" />
   </ItemGroup>
 
 </Project>

@@ -12,3 +12,17 @@ D:\USR\GitHub\CrudWebApi\UsuarioAPI\Domain\obj\Debug\netcoreapp2.2\Usuario.Domai
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Domain\bin\Debug\netcoreapp2.2\Usuario.Common.dll
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Domain\bin\Debug\netcoreapp2.2\Usuario.Common.pdb
 D:\USR\GitHub\CrudWebApi\UsuarioAPI\Domain\obj\Debug\netcoreapp2.2\Usuario.Domain.csproj.CopyComplete
+D:\Developer\GitHub\CrudWebApi\UsuarioAPI\Domain\bin\Debug\netcoreapp2.2\Usuario.Domain.deps.json
+D:\Developer\GitHub\CrudWebApi\UsuarioAPI\Domain\bin\Debug\netcoreapp2.2\Usuario.Domain.runtimeconfig.json
+D:\Developer\GitHub\CrudWebApi\UsuarioAPI\Domain\bin\Debug\netcoreapp2.2\Usuario.Domain.runtimeconfig.dev.json
+D:\Developer\GitHub\CrudWebApi\UsuarioAPI\Domain\bin\Debug\netcoreapp2.2\Usuario.Domain.dll
+D:\Developer\GitHub\CrudWebApi\UsuarioAPI\Domain\bin\Debug\netcoreapp2.2\Usuario.Domain.pdb
+D:\Developer\GitHub\CrudWebApi\UsuarioAPI\Domain\bin\Debug\netcoreapp2.2\Usuario.Common.dll
+D:\Developer\GitHub\CrudWebApi\UsuarioAPI\Domain\bin\Debug\netcoreapp2.2\Usuario.Common.pdb
+D:\Developer\GitHub\CrudWebApi\UsuarioAPI\Domain\obj\Debug\netcoreapp2.2\Usuario.Domain.csprojAssemblyReference.cache
+D:\Developer\GitHub\CrudWebApi\UsuarioAPI\Domain\obj\Debug\netcoreapp2.2\Usuario.Domain.csproj.CoreCompileInputs.cache
+D:\Developer\GitHub\CrudWebApi\UsuarioAPI\Domain\obj\Debug\netcoreapp2.2\Usuario.Domain.AssemblyInfoInputs.cache
+D:\Developer\GitHub\CrudWebApi\UsuarioAPI\Domain\obj\Debug\netcoreapp2.2\Usuario.Domain.AssemblyInfo.cs
+D:\Developer\GitHub\CrudWebApi\UsuarioAPI\Domain\obj\Debug\netcoreapp2.2\Usuario.Domain.csproj.CopyComplete
+D:\Developer\GitHub\CrudWebApi\UsuarioAPI\Domain\obj\Debug\netcoreapp2.2\Usuario.Domain.dll
+D:\Developer\GitHub\CrudWebApi\UsuarioAPI\Domain\obj\Debug\netcoreapp2.2\Usuario.Domain.pdb

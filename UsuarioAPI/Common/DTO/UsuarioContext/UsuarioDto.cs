@@ -9,6 +9,8 @@ namespace Usuario.Common.DTO.UsuarioContext
         public int Id { get; set; }
         public string Nome { get; set; }
         public int Idade { get; set; }
+        public int IdCidade { get; set; }
+        public string Sexo { get; set; }
 
     }
 }

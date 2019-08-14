@@ -17,5 +17,10 @@ namespace Usuario.Infrastructure.Repository.AlunoContext
             return _context.UsuarioDB.Where(x => x.Id == id);
         }
 
+        public IQueryable<UsuarioDB> GetAll()
+        {
+            return _context.UsuarioDB;
+        }
+
     }
 }

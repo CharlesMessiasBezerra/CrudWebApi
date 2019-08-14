@@ -1,6 +1,4 @@
 ﻿
-
-
 using System;
 using Usuario.Infrastructure.Model;
 using Usuario.Infrastructure.Repository.AlunoContext;

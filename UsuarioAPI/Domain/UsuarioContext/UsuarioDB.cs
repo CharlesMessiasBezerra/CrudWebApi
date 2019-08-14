@@ -1,10 +1,9 @@
-﻿using Usuario.Domain.UsuarioContext;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Usuario.Domain.UsuarioContext
 {
-    [Table("Usuario")]
+    [Table("Tab_Usuarios")]
     public partial class UsuarioDB
     {
         public UsuarioDB()
@@ -20,6 +19,17 @@ namespace Usuario.Domain.UsuarioContext
         [Column("NOME")]
         [StringLength(150)]
         public string Nome { get; set; }
-        
+
+        [Required]
+        [Column("IDADE")]        
+        public int Idade { get; set; }
+                
+        [Column("SEXO")]
+        [StringLength(1)]
+        public string Sexo { get; set; }
+
+        [Column("IDCIDADE")]
+        public int IdCidade { get; set; }
+
     }
 }
