@@ -686,33 +686,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Charles\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\cmbezerra\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Developer\\GitHub\\CrudWebApi\\UsuarioAPI\\Common\\Usuario.Common.csproj",
+      "projectUniqueName": "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Common\\Usuario.Common.csproj",
       "projectName": "Usuario.Common",
-      "projectPath": "D:\\Developer\\GitHub\\CrudWebApi\\UsuarioAPI\\Common\\Usuario.Common.csproj",
-      "packagesPath": "C:\\Users\\Charles\\.nuget\\packages\\",
-      "outputPath": "D:\\Developer\\GitHub\\CrudWebApi\\UsuarioAPI\\Common\\obj\\",
+      "projectPath": "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Common\\Usuario.Common.csproj",
+      "packagesPath": "C:\\Users\\cmbezerra\\.nuget\\packages\\",
+      "outputPath": "D:\\USR\\GitHub\\CrudWebApi\\UsuarioAPI\\Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Charles\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\cmbezerra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://srvv24:9090/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

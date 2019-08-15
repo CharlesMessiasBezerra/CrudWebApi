@@ -65,6 +65,16 @@ namespace Usuario.Service.ApplicationService
 
         }
 
+        public void Delete(int id)
+        {
+            var query = _uow.UsuarioRepository.GetById(id);
+            var usuario = query.FirstOrDefault();
+
+         _uow.UsuarioRepository.Delete(usuario);
+            _uow.Commit();
+
+        }
+
         public void Insert(UsuarioDto dto)
         {
             var usuariodb = new UsuarioDB

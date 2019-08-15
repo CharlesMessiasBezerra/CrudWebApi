@@ -32,7 +32,7 @@ namespace Usuario.Interface.Controllers
             return _appService.GetAll();
         }
 
-        [HttpPost]
+        [HttpPost("")]
         public ActionResult Insert(UsuarioDto dto)
         {
             _appService.Insert(dto);
@@ -46,5 +46,11 @@ namespace Usuario.Interface.Controllers
             return Ok();
         }
 
+        [HttpDelete("{id:int}")]
+        public ActionResult Delete( int id)
+        {
+            _appService.Delete( id);
+            return Ok();
+        }
     }
 }
